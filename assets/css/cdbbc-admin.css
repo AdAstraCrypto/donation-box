@@ -1,0 +1,12 @@
+.csf-cloneable-item span.cpmw_disabled {
+  background: red;
+  color: #fff;
+  padding: 4px 6px 4px 6px;
+  border-radius: 5px;
+}
+.csf-cloneable-item span.cpmw_enabled {
+  background: green;
+  color: #fff;
+  padding: 4px 6px 4px 6px;
+  border-radius: 5px;
+}

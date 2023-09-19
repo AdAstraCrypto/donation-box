@@ -1,0 +1,31 @@
+{
+  "name": "cryptocurrency-donation-box",
+  "version": "2.2.5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^6.5.1",
+    "mini-css-extract-plugin": "^2.4.6",
+    "sass": "^1.27.0",
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@simonwep/pickr": "^1.8.2",
+    "@solana/web3.js": "^1.31.0",
+    "ethers": "^5.5.3",
+    "node-polyfill-webpack-plugin": "^1.1.4"
+  }
+}
